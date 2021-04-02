@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta -->
+        <title>KINO KAVE 🎞️</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles -->
+        <link rel="stylesheet" href="style.css">
+        <!-- JS -->
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body onload="start()">  
+        
+        <div class="logos">
+            <a href="https://www.instagram.com/kinokave.ist/" target="_blank"> 
+                 <sub style="color:whitesmoke"></sub> <img src="img/instaIcon.png" width="40" > 
+            </a>
+            <a href="https://www.facebook.com/kinokave.ist/" target="_blank"> 
+                 <sub style="color:whitesmoke"></sub> <img src="img/fbIcon.png" width="40" > 
+            </a>
+            <a href="mailto:kinokave.sa@aeist.pt">
+                 <sub style="color:whitesmoke"></sub> <img src="img/mailIcon.png" width="40" > 
+            </a>
+        </div>
+        
+        <div class="containerMenu" id = "menuicon" onclick="displayMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div class="topnav" id="topnavbar" style="visibility: hidden;">
+              <a id="topbutton" href="index.html">SOBRE</a>
+              <a id="topbutton" class="active" href="ciclos.html">CICLOS</a>
+              <a id="topbutton" href="contest.html">SORTEIO</a>
+        </div>
+            
+        <div id="Page2"> 
+            
+            <div class="arrownav">
+                <a href="#" class="next" onclick="show('Page1','Page2')">&#8250;</a>
+            </div>
+            
+            <!-- <a id="vimeo" href="video.html" >VER AQUI</a> -->
+            
+            <div class="poster4">
+                <img class="picture" src="img/camoes_abelha.png" alt="Photo">   
+                <img class="picture" src="img/camoes_amado.png" alt="Photo">        
+                <img class="picture" src="img/camoes_brandos.png" alt="Photo">        
+                <img class="picture" src="img/camoes_alianca.png" alt="Photo"> 
+                
+                <div class="container">
+                    <p class="title"><b>abril 2021 &nbsp;|&nbsp; A VISTA ESQUERDA DE CAMÕES</b></p>
+                    <p><b>5</b>&nbsp;|&nbsp; Uma Abelha na Chuva - Fernando Lopes (1972)</p>
+                    <p><b>12</b>&nbsp;|&nbsp; O Mal Amado - Fernando Matos Silva (1974)</p>
+                    <p><b>19</b>&nbsp;|&nbsp; Brandos Costumes - Alberto Seixas Santos (1975)</p>
+                    <p><b>26</b>&nbsp;|&nbsp; A Santa Aliança - Eduardo Geada (1977)</p>
+                    <p><b  style="color:red">ESPECIAL 25 ABRIL&nbsp;|&nbsp;</b>  Torre Bela - Thomas Harlan (1975)</p>
+                </div>
+            </div>
+                                    
+            <div class="poster4">
+                <img class="picture" src="img/indiasong.png" alt="Photo">   
+                <img class="picture" src="img/janeb.png" alt="Photo">        
+                <img class="picture" src="img/jeannedielman.png" alt="Photo">        
+                <img class="picture" src="img/wanda.png" alt="Photo"> 
+                
+                <div class="container">
+                    <p class="title"><b>março 2021 &nbsp;|&nbsp; THE FEMALE GAZE</b></p>
+                    <p><b>1</b>&nbsp;|&nbsp; India Song - Marguerite Duras (1975)</p>
+                    <p><b>8</b>&nbsp;|&nbsp; Jane B. par Agnès V - Agnès Varda (1988)</p>
+                    <p><b>15</b>&nbsp;|&nbsp; Jeanne Dielman, 23 Commerce Quay, 1080 Brussels - Chantal Akerman (1975)</p>
+                    <p><b>22</b>&nbsp;|&nbsp; Wanda - Barbara Loden (1970) </p>
+                </div>
+            </div>
+        
+        </div>
+            
+        <div id="Page1" style="display:none"> 
+
+            <div class="arrownav">
+                <a href="#" class="previous" onclick="show('Page2','Page1')" >&#8249;</a>
+            </div>
+
+            <div class="poster4">
+                <img class="picture" src="img/oldboy.png" alt="Photo"> 
+                <img class="picture" src="img/mother.png" alt="Photo">   
+                <img class="picture" src="img/battleroyale.png" alt="Photo">        
+
+                <div class="container">
+                    <p class="title"><b> março 2020 &nbsp;|&nbsp; CINEMA ASIÁTICO</b></p>
+                    <p><b>11</b>&nbsp;|&nbsp; Oldboy - Park Chan-wook</p>
+                    <p><b>18</b>&nbsp;|&nbsp; Mother - Bong Joon-ho </p>
+                    <p><b>25</b>&nbsp;|&nbsp; Battle Royale - Kinji Fukasaku</p>
+                </div>
+            </div>
+
+        </div>  
+
+    </body>
+</html>
