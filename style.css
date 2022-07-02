@@ -201,7 +201,6 @@ div.poster4 {
 
 
 #about {
-    display: none;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20%;
@@ -221,6 +220,7 @@ div.poster4 {
 
 .title {
     font-size: 30px;
+    display: block;
 }
 
 #vimeo:link, #vimeo:visited{
